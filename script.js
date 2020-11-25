@@ -1,7 +1,7 @@
 let lorem = document.getElementById("p1").textContent;
 
-let span1 = parseInt(document.getElementById("sp1").textContent);
-let span2 = parseInt(document.getElementById("sp2").textContent);
+let span1 = parseInt(document.getElementById("sp1").innerHTML);
+let span2 = parseInt(document.getElementById("sp2").innerHTML);
 let result = document.getElementById("result");
 
 result.innerText = ((span1 + span2) === span1+span2) ? span1+span2 : "5+12 est different de 17";
