@@ -1,4 +1,4 @@
-let lorem = document.getElementById("p1").textContent;
+let lorem = document.getElementById("p1").innerHTML;
 
 let span1 = parseInt(document.getElementById("sp1").innerHTML);
 let span2 = parseInt(document.getElementById("sp2").innerHTML);
